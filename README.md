@@ -3,5 +3,5 @@ This repository is for developing a framework for legal briefs or case brief. A 
 
 Case briefing aids your memory. Briefs help you remember the cases you read (1) for class discussion, (2) for end-of-semester review for final examinations, and (3) for writing and analyzing legal problems. 
 
-**CaseBrief** folder contains sample case briefs for indian cases. Case Judgements for each case briefs are stored in **CaseJudgement** folder.
+**CaseBriefs** folder contains sample case briefs for indian cases. Case Judgements for each case briefs are stored in **CaseJudgements** folder.
 
