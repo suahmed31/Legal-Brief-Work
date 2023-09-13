@@ -5,3 +5,6 @@ Case briefing aids your memory. Briefs help you remember the cases you read (1) 
 
 **CaseBriefs** folder contains sample case briefs for indian cases. Case Judgements for each case briefs are stored in **CaseJudgements** folder.
 
+We have used OpenNyAi based BUILD Model to create the Rhetorical Roles (RR). You can find the details about the Rhetorical Role Baseline at the Git Hub link https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline. 
+
+Once, we get the RRs, we can now process them further for creating a Case Brief.
