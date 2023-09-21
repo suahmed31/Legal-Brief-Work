@@ -8,3 +8,9 @@ Case briefing aids your memory. Briefs help you remember the cases you read (1) 
 We have used OpenNyAi based BUILD Model to create the Rhetorical Roles (RR). You can find the details about the Rhetorical Role Baseline at the Git Hub link https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline. 
 
 Once, we get the RRs, we can now process them further for creating a Case Brief.
+
+# System Architecture
+
+This work is build on top of [BUILDNyAI](https://legal-nlp-ekstep.github.io/Competitions/Rhetorical-Role/).
+
+
