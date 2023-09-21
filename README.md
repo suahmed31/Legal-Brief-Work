@@ -5,12 +5,18 @@ Case briefing aids your memory. Briefs help you remember the cases you read (1) 
 
 **CaseBriefs** folder contains sample case briefs for indian cases. Case Judgements for each case briefs are stored in **CaseJudgements** folder.
 
-We have used OpenNyAi based BUILD Model to create the Rhetorical Roles (RR). You can find the details about the Rhetorical Role Baseline at the Git Hub link https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline. 
+We have used OpenNyAi based BUILD Model to create the Rhetorical Roles (RR). You can find the details about the Rhetorical Role Baseline at the [Git Hub link](https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline). 
 
 Once, we get the RRs, we can now process them further for creating a Case Brief.
 
 # System Architecture
 
-This work is build on top of [BUILDNyAI](https://legal-nlp-ekstep.github.io/Competitions/Rhetorical-Role/).
+This work is build on top of [BUILDNyAI](https://legal-nlp-ekstep.github.io/Competitions/Rhetorical-Role/) model and [OpenNyAI NLP Pipeline](https://github.com/OpenNyAI/Opennyai). The OpenNyAI NLP Pipeline takes a legal Judgement and Produces three types of outputs with the help of three pre-trained models, namely - summarizer, NER and Rhetorical-Roles. 
+
+You can also get all the three types of data (Summary, Name Entities, Rhetorical Roles) using this [WebAPP](https://summarizer-fer6v2lowq-uc.a.run.app/) provided by OpenNyAI. However, copying each rhetorical role is a cumbersome and highly inefficient task. So, we need to install the NLP Pipeline on our local system and then download the models output, in our case rhetorical roles, in JSON format.
+
+The technical issue with the JSON format in this case is its readability and thereby its analysis. The JSON format of legal text is a complex architecture as mentioned in its [description](https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline). So, we have convert the same in to more efficient format and we choose it to be Comma Separated Values (CSV) format.
+
+The real work
 
 
