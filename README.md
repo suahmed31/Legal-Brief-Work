@@ -37,7 +37,7 @@ If we analyze this heatmap, we can clearly see that **fact-6** (7.3%)and **fact-
 
 Next, we checked the relatedness between various facts and arguments (both petitioner and respondent). In our case their were 09 Petitioner Arguments and 02 Respondent Arguments). The below mentioned image shows a comparative summary of the relatedness between various facts and arguments of the judgement.
 
-![ComparisonSummary-Facts-Arguments](https://github.com/suahmed31/Legal-Brief-Work/assets/41320529/7e8eb786-a1f2-492a-ae0a-baa028f4094f)
+![ComparisonSummary-Facts-Arguments](https://github.com/suahmed31/Legal-Brief-Work/blob/main/imgs/ComparisonSummary-Facts-Arguments.png)
 
 
 
