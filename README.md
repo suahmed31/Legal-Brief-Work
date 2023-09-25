@@ -33,11 +33,15 @@ The following heatmap shows a sample of this relatedness between issue (01) and 
 
 ![image](https://github.com/suahmed31/Legal-Brief-Work/blob/main/imgs/Issue-Facts-Heatmap.png)
 
-If we analyze this heatmap, we can clearly see that **fact-6** (7.3%)and **fact-7** (8.6%) has the least relatedness with the issue compared with all the other facts. In forming the factual summary we will drop those facts which has similarity scores less that 10%.
+If we analyze this heatmap, we can clearly see that **fact-6** (7.3%)and **fact-7** (8.6%) has the least relatedness with the issue compared with all the other facts. In forming the factual summary we will drop those facts which has similarity scores less that 10%. So, created a **factual statement/ fact summary** (ordered list) consisting of facts based on the relatedness of facts with the legal issue. The more related a fact is with the issue it is on the top of the summary.
 
 Next, we checked the relatedness between various facts and arguments (both petitioner and respondent). In our case their were 09 Petitioner Arguments and 02 Respondent Arguments). The below mentioned image shows a comparative summary of the relatedness between various facts and arguments of the judgement.
 
 ![ComparisonSummary-Facts-Arguments](https://github.com/suahmed31/Legal-Brief-Work/blob/main/imgs/ComparisonSummary-Facts-Arguments.png)
+
+Based on the similarity values, we had created the created an **argument summary**. After Facts, Issues, and Arguments, we need to analyze the Analysis/Reasoning of the Judgement. The Analysis Annotation in the Rhetorical Role is a super-set of Analysis, Statute, Precedent Relied, Precedent Not Relied, Ratio of the decision. So, we combined all the statements pertating to these roles in one single document and compared the Ratio i.e, the reason for the decision or judgement, with this single document. If the Ratio is correct, they must have certain similarity with this analysis document. The heatmap below shows the similarity of the ratios of the judgement and the analysis document and confirms its similarity. In case, so ratio do not match we can drop them as well while creating the summary.
+
+![Ratio-Analysis](https://github.com/suahmed31/Legal-Brief-Work/blob/main/imgs/analysis-ratio-Heatmap.png)
 
 
 
